@@ -1,0 +1,20 @@
+# Muestra el estado actual del repo (archivos modificados, staged, untracked)
+git status
+
+# Agrega todos los archivos modificados al área de staging (preparados para commit)
+git add .
+
+# Crea un commit con los archivos staged y un mensaje descriptivo
+git commit -m "Initial commit: estructura base del proyecto Ruby"
+
+# Conecta tu repo local con el repositorio remoto en GitHub
+git remote add origin https://github.com/LopezJoseMarcel/sub_strings.git
+
+# Renombra la rama por defecto a "main" (antes era "master")
+git branch -M main
+
+# Sube tu rama local "main" al repositorio remoto y la vincula para futuros push
+git push -u origin main
+
+# Borra la conexión remota si te equivocaste con la URL (úsalo antes de volver a agregar con la URL correcta)
+git remote remove origin

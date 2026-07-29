@@ -1,0 +1,7 @@
+/.bundle/
+/log/*.log
+/tmp/**/
+.env
+*.gem
+Gemfile.lock  # opcional, algunos lo versionan, otros no
+.DS_Store
